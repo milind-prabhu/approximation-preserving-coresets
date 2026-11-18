@@ -1,7 +1,8 @@
 # PFR-style file dependency graph
 
-Open the [live dependency graph](https://milind-prabhu.github.io/approximation-preserving-lean/),
-or open `apc-dependency-graph.html` in a browser. It is self-contained and works
+This supplementary graph shows file imports. The [main interactive graph](https://milind-prabhu.github.io/approximation-preserving-coresets/) shows compiled declaration dependencies.
+
+Open `apc-dependency-graph.html` in a browser. It is self-contained and works
 offline. Select a file to inspect its imports, theorem statements and complete
 Lean source; select a theorem to jump to its declaration. Search, route filters,
 zoom, pan, and SVG/DOT/data exports are included.
@@ -40,4 +41,4 @@ Visual references:
 - [Terence Tao's blueprint tour](https://terrytao.wordpress.com/2023/11/18/formalizing-the-proof-of-pfr-in-lean4-using-blueprint-a-short-tour/)
 
 The PFR blueprint has declaration-level nodes. This adaptation groups the
-checked declarations into file nodes, as requested.
+checked declarations into file nodes, for a compact file-level view.

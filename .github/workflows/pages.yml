@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'dependency-graph/apc-dependency-graph.html'
+      - 'blueprint/generated/APC_Blueprint.html'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -32,7 +32,7 @@ jobs:
       - name: Prepare interactive proof graph
         run: |
           mkdir -p _site
-          cp dependency-graph/apc-dependency-graph.html _site/index.html
+          cp blueprint/generated/APC_Blueprint.html _site/index.html
       - name: Upload site
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:

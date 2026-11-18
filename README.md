@@ -1,32 +1,21 @@
 # Approximation Preserving Coresets
 
-Lean 4 formalization of approximation-and-size guarantees from
-**Approximation Preserving Coresets**, by Milind Prabhu, Chris Schwiegelshohn,
+The following results are formalized in Lean:
+
+- **Euclidean APC:** `(1+ε)` approximation preservation with an explicit inverse-cubic size bound, up to a logarithmic factor.
+- **Randomized lifting:** an `α(1+ε)` approximation from an `α`-approximate summary solver.
+- **Finite-metric APC:** a `(4+ε)` approximation using subset enumeration.
+
+[Paper](https://arxiv.org/abs/2606.17316) by Milind Prabhu, Chris Schwiegelshohn,
 and Sudarshan Shyam.
-
-[Paper](https://arxiv.org/abs/2606.17316) · [Formalization notes](FORMALIZATION.md)
-
-The development contains **367 checked theorems across 72 proof files**.
-It proves an unconditional Euclidean `(1+ε)` APC with an inverse-cubic size
-bound up to a logarithmic factor, randomized lifting guarantees, and a
-finite-metric `(4+ε)` construction with subset enumeration.
-
-The Euclidean proof uses an alternative iterative sampling construction.
-The paper’s original fast two-stage implementation, near-linear preprocessing,
-full runtime analysis, lower bounds, and composability are outside the
-verified scope. See the formalization notes for exact hypotheses and claims.
 
 ## Explore the proof
 
-View the [interactive dependency graph](https://milind-prabhu.github.io/approximation-preserving-lean/).
-Select a file or search for a theorem to inspect its Lean statement and source.
-The route menu separates the Euclidean, metric, and original two-stage arguments.
+View the [interactive Lean proof dependency graph](https://milind-prabhu.github.io/approximation-preserving-coresets/).
+Hover for a summary; click a theorem or lemma to see its Lean statement, proof,
+and dependencies. Use the view menu to explore different parts of the proof.
 
-[![Proof file dependency graph](dependency-graph/apc-file-dependencies.svg)](https://milind-prabhu.github.io/approximation-preserving-lean/)
-
-Arrows show **file imports**, not kernel-level theorem dependencies.
-The graph is tied to the audited source hashes; checked conditional statements
-remain conditional. [Graph notes and downloads](dependency-graph/README.md).
+[![Lean proof dependency graph](blueprint/generated/APC_Dependency_Graph.svg)](https://milind-prabhu.github.io/approximation-preserving-coresets/)
 
 ## Build and verify
 
@@ -37,10 +26,8 @@ bash bootstrap.sh
 bash check.sh
 ```
 
-Lean is pinned to **4.24.0** and mathlib to commit
-`f897ebcf72cd16f89ab4577d0c826cd14afaafc7`. The check builds the full project,
-audits all named theorems, rejects unexpected axioms, and checks the original
-source hashes. [Build status](https://github.com/milind-prabhu/approximation-preserving-lean/actions/workflows/lean.yml).
+The project pins Lean 4.24.0 and mathlib. The check builds the proofs and runs the
+axiom audit. [Build status](https://github.com/milind-prabhu/approximation-preserving-coresets/actions/workflows/lean.yml).
 
-The graph is self-contained and can also be opened offline from
-`dependency-graph/apc-dependency-graph.html`.
+See the [formalization notes](FORMALIZATION.md) for precise theorem statements,
+assumptions, and correspondence with the paper.
