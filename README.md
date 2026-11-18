@@ -31,3 +31,5 @@ axiom audit. [Build status](https://github.com/milind-prabhu/approximation-prese
 
 See the [formalization notes](FORMALIZATION.md) for precise theorem statements,
 assumptions, and correspondence with the paper.
+
+This formalization was achieved using **ChatGPT-6 Astra**.
