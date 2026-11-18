@@ -1,0 +1,766 @@
+⚠ [1951/2024] Built APC.Transfer (2.8s)
+warning: APC/Transfer.lean:54:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: APC/Transfer.lean:69:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [1952/2024] Built APC.Geometry (3.2s)
+warning: APC/Geometry.lean:20:0: automatically included section variable(s) unused in theorem `APC.oneCost_nonneg`:
+  [InnerProductSpace ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/Geometry.lean:70:0: automatically included section variable(s) unused in theorem `APC.oneCost_zero_mass`:
+  [InnerProductSpace ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1953/2024] Built APC.Clustering (1.3s)
+⚠ [1954/2024] Built APC.SmallMean (1.0s)
+warning: APC/SmallMean.lean:103:69: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: APC/SmallMean.lean:103:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: APC/SmallMean.lean:103:69: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [1955/2024] Built APC.Metric (1.5s)
+✔ [1956/2024] Built APC.ConcentrationGeometry (1.9s)
+⚠ [1957/2024] Built APC.Witnesses (2.1s)
+warning: APC/Witnesses.lean:28:22: This simp argument is unused:
+  Fintype.card_fun
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵F̵i̵n̵t̵y̵p̵e̵.̵c̵a̵r̵d̵_̵f̵u̵n̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: APC/Witnesses.lean:47:22: This simp argument is unused:
+  Fintype.card_fun
+
+Hint: Omit it from the simp argument list.
+  simp [F̵i̵n̵t̵y̵p̵e̵.̵c̵a̵r̵d̵_̵f̵u̵n̵,̵ ̵← pow_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [1958/2024] Built APC.FiniteProbability (2.2s)
+⚠ [1959/2024] Built APC.FarClusters (1.0s)
+warning: APC/FarClusters.lean:103:23: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: APC/FarClusters.lean:103:37: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [1960/2024] Built APC.Lifting (1.5s)
+warning: APC/Lifting.lean:14:0: automatically included section variable(s) unused in theorem `APC.clusterWeight_nonneg`:
+  [Fintype I]
+  [Nonempty I]
+  [Fintype K]
+  [Nonempty K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [Nonempty I] [Fintype K] [Nonempty K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/Lifting.lean:21:0: automatically included section variable(s) unused in theorem `APC.cluster_cost_sum`:
+  [Nonempty I]
+  [Nonempty K]
+  [InnerProductSpace ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] [Nonempty K] [InnerProductSpace ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1961/2024] Built APC.Iteration (2.6s)
+✔ [1962/2024] Built APC.Amplification (1.7s)
+✔ [1963/2024] Built APC.TwoStage (1.4s)
+✔ [1964/2024] Built APC.ProductProbability (1.6s)
+✔ [1965/2024] Built APC.Bernstein (1.0s)
+⚠ [1966/2024] Built APC.RandomMean (2.4s)
+warning: APC/RandomMean.lean:12:0: automatically included section variable(s) unused in theorem `APC.drawSum_centered`:
+  [Fintype I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1967/2024] Built APC.Guarantee (1.6s)
+✔ [1968/2024] Built APC.AdaptiveIteration (1.8s)
+✔ [1969/2024] Built APC.AdaptiveProbability (1.8s)
+✔ [1970/2024] Built APC.DependentKernel (1.9s)
+⚠ [1971/2024] Built APC.SharpKernel (1.9s)
+warning: APC/SharpKernel.lean:14:5: unused variable `hη`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [1972/2024] Built APC.ImportanceSampling (1.5s)
+✔ [1973/2024] Built APC.Sampler (1.6s)
+⚠ [1974/2024] Built APC.SamplingBudgets (2.1s)
+warning: APC/SamplingBudgets.lean:24:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [1975/2024] Built APC.ResidualSampling (3.2s)
+warning: APC/ResidualSampling.lean:35:42: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: APC/ResidualSampling.lean:35:42: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: APC/ResidualSampling.lean:73:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [1976/2024] Built APC.Partition (2.4s)
+✔ [1977/2024] Built APC.BestMean (2.4s)
+✔ [1978/2024] Built APC.WitnessBudget (2.4s)
+⚠ [1979/2024] Built APC.ImportanceMoments (2.0s)
+warning: APC/ImportanceMoments.lean:60:11: `mul_le_mul_right` has been deprecated: Use `mul_le_mul_iff_left₀` instead
+warning: APC/ImportanceMoments.lean:61:82: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: APC/ImportanceMoments.lean:61:82: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [1980/2024] Built APC.OneCenterMoments (3.1s)
+✔ [1981/2024] Built APC.ResidualFamily (2.1s)
+✔ [1982/2024] Built APC.Aggregation (2.1s)
+⚠ [1983/2024] Built APC.PartitionGeometry (2.3s)
+warning: APC/PartitionGeometry.lean:40:52: This simp argument is unused:
+  Finset.sum_sub_distrib
+
+Hint: Omit it from the simp argument list.
+  simp only [if_pos h̵j̵,̵c̵o̵s̵t̵,̵g̵r̵o̵u̵p̵M̵a̵s̵s̵,̵f̵i̵b̵e̵r̵W̵e̵i̵g̵h̵t̵,̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵s̵u̵b̵_̵d̵i̵s̵t̵r̵i̵b̵,̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵m̵u̵l̵]̵h̲j̲,̲ ̲c̲o̲s̲t̲,̲ ̲g̲r̲o̲u̲p̲M̲a̲s̲s̲,̲ ̲f̲i̲b̲e̲r̲W̲e̲i̲g̲h̲t̲,̲ ̲F̲i̲n̲s̲e̲t̲.̲s̲u̲m̲_̲m̲u̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: APC/PartitionGeometry.lean:40:75: This simp argument is unused:
+  Finset.sum_mul
+
+Hint: Omit it from the simp argument list.
+  simp only [if_pos h̵j̵,̵c̵o̵s̵t̵,̵g̵r̵o̵u̵p̵M̵a̵s̵s̵,̵f̵i̵b̵e̵r̵W̵e̵i̵g̵h̵t̵,̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵s̵u̵b̵_̵d̵i̵s̵t̵r̵i̵b̵,̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵m̵u̵l̵]̵h̲j̲,̲ ̲c̲o̲s̲t̲,̲ ̲g̲r̲o̲u̲p̲M̲a̲s̲s̲,̲ ̲f̲i̲b̲e̲r̲W̲e̲i̲g̲h̲t̲,̲ ̲F̲i̲n̲s̲e̲t̲.̲s̲u̲m̲_̲s̲u̲b̲_̲d̲i̲s̲t̲r̲i̲b̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: APC/PartitionGeometry.lean:60:40: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: APC/PartitionGeometry.lean:60:40: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [1984/2024] Built APC.RandomLifting (2.4s)
+warning: APC/RandomLifting.lean:24:0: automatically included section variable(s) unused in theorem `APC.liftingTrialsLaw_sum`:
+  [InnerProductSpace ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/RandomLifting.lean:28:0: automatically included section variable(s) unused in theorem `APC.liftingTrialsLaw_nonneg`:
+  [InnerProductSpace ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/RandomLifting.lean:36:0: automatically included section variable(s) unused in theorem `APC.randomLift_mem_witness`:
+  [Nonempty I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1985/2024] Built APC.SensitivityDistribution (2.6s)
+warning: APC/SensitivityDistribution.lean:23:0: automatically included section variable(s) unused in theorem `APC.activeMass_le_card`:
+  [Nonempty I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/SensitivityDistribution.lean:94:0: automatically included section variable(s) unused in theorem `APC.clusterDelta_total`:
+  [Nonempty I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/SensitivityDistribution.lean:257:0: automatically included section variable(s) unused in theorem `APC.activeMass_eq_card`:
+  [Nonempty I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1986/2024] Built APC.KMeansResidual (1.9s)
+warning: APC/KMeansResidual.lean:14:0: automatically included section variable(s) unused in theorem `APC.closeResidual_square`:
+  [Fintype I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/KMeansResidual.lean:27:0: automatically included section variable(s) unused in theorem `APC.closeResidual_range`:
+  [Fintype I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1987/2024] Built APC.LiftingCounts (1.5s)
+⚠ [1988/2024] Built APC.StructuralSampling (1.6s)
+warning: APC/StructuralSampling.lean:14:0: automatically included section variable(s) unused in theorem `APC.normalizedGroupLoss_sum`:
+  [Fintype K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/StructuralSampling.lean:21:0: automatically included section variable(s) unused in theorem `APC.normalizedGroupLoss_nonneg`:
+  [Fintype K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/StructuralSampling.lean:29:0: automatically included section variable(s) unused in theorem `APC.normalizedGroupLoss_bound`:
+  [Fintype K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/StructuralSampling.lean:45:0: automatically included section variable(s) unused in theorem `APC.zero_group_estimate`:
+  [Fintype K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1989/2024] Built APC.OneCenterSampling (1.7s)
+warning: APC/OneCenterSampling.lean:17:43: unused variable `i`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: APC/OneCenterSampling.lean:36:0: automatically included section variable(s) unused in theorem `APC.sampled_mass_estimator`:
+  [Fintype I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/OneCenterSampling.lean:43:0: automatically included section variable(s) unused in theorem `APC.sampled_oneCost_estimator`:
+  [Fintype I]
+  [InnerProductSpace ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [InnerProductSpace ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/OneCenterSampling.lean:52:0: automatically included section variable(s) unused in theorem `APC.vectorDrawSum_eq_sum`:
+  [Fintype I]
+  [InnerProductSpace ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [InnerProductSpace ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1990/2024] Built APC.GlobalError (1.6s)
+warning: APC/GlobalError.lean:47:29: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [1991/2024] Built APC.RandomizedTransfer (1.2s)
+⚠ [1992/2024] Built APC.GlobalSampling (2.2s)
+warning: APC/GlobalSampling.lean:76:32: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [1993/2024] Built APC.OneCenterStrong (2.9s)
+warning: APC/OneCenterStrong.lean:46:84: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: APC/OneCenterStrong.lean:47:84: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: APC/OneCenterStrong.lean:49:45: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: APC/OneCenterStrong.lean:57:54: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: APC/OneCenterStrong.lean:46:84: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: APC/OneCenterStrong.lean:47:84: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: APC/OneCenterStrong.lean:49:45: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [1994/2024] Built APC.FiniteFamilyCoreset (1.8s)
+⚠ [1995/2024] Built APC.OneCenterConstruction (1.8s)
+warning: APC/OneCenterConstruction.lean:22:35: `mul_le_mul_left` has been deprecated: Use `mul_le_mul_iff_right₀` instead
+warning: APC/OneCenterConstruction.lean:15:0: automatically included section variable(s) unused in theorem `APC.oneCenter_zero_variance_points`:
+  [Nonempty I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [1996/2024] Built APC.OneCenterCorollaries (1.8s)
+warning: APC/OneCenterCorollaries.lean:9:0: automatically included section variable(s) unused in theorem `APC.unit_cost_eq_oneCost`:
+  [InnerProductSpace ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [1997/2024] Built APC.EuclideanCompression (2.1s)
+✔ [1998/2024] Built APC.RandomizedCompression (2.9s)
+⚠ [1999/2024] Built APC.SampleCounts (1.3s)
+warning: APC/SampleCounts.lean:47:67: unused variable `hz`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2000/2024] Built APC.RandomizedCounts (1.5s)
+✔ [2001/2024] Built APC.MetricSampling (1.6s)
+✔ [2002/2024] Built APC.LogSchedule (1.9s)
+✔ [2003/2024] Built APC.MetricStageKernel (1.5s)
+✔ [2004/2024] Built APC.MetricSchedule (2.3s)
+✔ [2005/2024] Built APC.EuclideanStage (3.2s)
+✔ [2006/2024] Built APC.IteratedMetricSampling (2.1s)
+✔ [2007/2024] Built APC.MetricLogCompression (1.8s)
+✔ [2008/2024] Built APC.MetricRoundedCompression (1.8s)
+✔ [2009/2024] Built APC.EuclideanSize (5.4s)
+⚠ [2010/2024] Built APC.EuclideanIteration (2.3s)
+warning: APC/EuclideanIteration.lean:20:0: automatically included section variable(s) unused in theorem `APC.EuclideanIteration.sample_pos`:
+  [InnerProductSpace ℝ X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/EuclideanIteration.lean:49:0: automatically included section variable(s) unused in theorem `APC.EuclideanIteration.cloud_support_subset`:
+  [InnerProductSpace ℝ X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2011/2024] Built APC.RandomStrongInput (1.7s)
+⚠ [2012/2024] Built APC.FiniteMetricStrong (2.3s)
+warning: APC/FiniteMetricStrong.lean:96:61: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [2013/2024] Built APC.MetricSize (12s)
+✔ [2014/2024] Built APC.MetricSizeCorrectness (1.1s)
+⚠ [2015/2024] Built APC.MetricEnumeration (1.2s)
+warning: APC/MetricEnumeration.lean:44:0: automatically included section variable(s) unused in theorem `APC.MetricIteration.supportSearch_candidate_count`:
+  [Nonempty I]
+  [Nonempty K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] [Nonempty K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [2016/2024] Built APC.SubsetSearch (1.3s)
+warning: APC/SubsetSearch.lean:17:0: automatically included section variable(s) unused in theorem `APC.MetricIteration.centerSubsets_nonempty`:
+  [Nonempty I]
+  [Nonempty K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] [Nonempty K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/SubsetSearch.lean:32:0: automatically included section variable(s) unused in theorem `APC.MetricIteration.subsetTuple_mem`:
+  [Fintype I]
+  [Nonempty K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [Nonempty K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/SubsetSearch.lean:37:0: automatically included section variable(s) unused in theorem `APC.MetricIteration.subsetTuple_hits`:
+  [Fintype I]
+  [Nonempty K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] [Nonempty K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/SubsetSearch.lean:62:0: automatically included section variable(s) unused in theorem `APC.MetricIteration.cost_le_of_centers_cover`:
+  [Nonempty I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: APC/SubsetSearch.lean:98:69: unused variable `j`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: APC/SubsetSearch.lean:102:0: automatically included section variable(s) unused in theorem `APC.MetricIteration.subsetSearch_candidate_count`:
+  [Nonempty I]
+  [Nonempty K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] [Nonempty K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [2017/2024] Built APC.EuclideanOptimum (1.3s)
+⚠ [2018/2024] Built APC.BinomialBudget (2.4s)
+warning: APC/BinomialBudget.lean:93:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [2019/2024] Built APC.MetricSubsetEnumeration (2.1s)
+⚠ [2020/2024] Built APC.EuclideanCompletion (2.0s)
+warning: APC/EuclideanCompletion.lean:90:6: unused variable `n`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2021/2024] Built APC.EuclideanRandomCompletion (1.3s)
+✔ [2022/2024] Built APC.EuclideanCubicSize (1.2s)
+✔ [2023/2024] Built APC (998ms)
+Build completed successfully (2024 jobs).
+'APC.witness_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclidean_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclidean_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclidean_transfer_rescaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.preserves_compose' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.preserves_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCost_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.centered_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.variance_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.mean_minimizes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.closest_mean_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCost_zero_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.exists_le_weighted_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.centered_step_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.exists_small_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.exists_small_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.nearest_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.pointCost_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.cost_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.cost_le_assigned' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.mem_smallMeans' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.card_smallMeans' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.mem_witnessFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.card_witnessFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.card_witnessFamily_with_opt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.witnessFamily_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.clusterWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.cluster_cost_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.exists_structured_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclidean_apc_of_preservation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclidean_two_stage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.geometricLift_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclidean_apc_fixed_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.drawWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.drawWeight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.draw_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_markov' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sample_sum_failure_le_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.eventMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.eventMass_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.eventMass_complement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_union_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.allDraws_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.amplified_cluster_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.drawSum_centered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.drawMean_centered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.drawMean_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.random_mean_failure_le_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_apc_of_preservation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.exp_le_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_centered_mgf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.draw_exp_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_chernoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.draw_upper_tail_mgf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.eventMass_or_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.drawSum_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.draw_two_sided_tail_mgf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_bernstein' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.centerDist_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.centerDist_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.centerDist_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.pointCost_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.pointCost_difference_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.close_pointCost_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.representative_cost_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.centered_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.centered_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.expectation_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.empirical_average_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.importance_unbiased' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.importance_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.importance_sampling_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.residual_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.residual_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.close_residual_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.exponential_union_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_family_exponential_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.nonnegative_importance_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.drawSum_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sampledWeights_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sampled_cost_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.importanceEstimate_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.importanceEstimate_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.pointCost_young' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.weighted_center_deviation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.far_center_deviation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.far_cluster_cost_preservation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.residual_family_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.structural_family_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.closeResidual_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.closeResidual_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.kmeans_close_residual_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sampled_zero_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.log_solution_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.witness_family_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.fiberWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.groupMass_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.own_le_groupMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.group_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.groupMass_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.groupMass_zero_terms' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.groupMass_mul_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.group_div_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.group_mul_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.activeMass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.activeMass_le_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.clusterLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.localCostLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.clusterDelta_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.globalCostLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.deltaLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sensitivityProbability_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sampling_components_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sensitivityProbability_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sampling_component_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.divide_component_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sensitivity_weight_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sensitivity_local_cost_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sensitivity_global_cost_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sensitivity_delta_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.activeMass_eq_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sensitivityProbability_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.aggregateWeights_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.aggregate_evaluate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.aggregate_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.aggregate_groupMass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.aggregate_groupCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.importanceEstimate_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.normalized_residual_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.normalizedGroupLoss_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.normalizedGroupLoss_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.normalizedGroupLoss_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.zero_group_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.group_mass_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.fiber_cost_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.fiber_proxy_cost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.partition_residual_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.global_error_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.representative_group_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.global_cost_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sensitivity_finite_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.preserves_iff_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_family_coreset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclidean_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.meanSampleCount_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.budgetSampleCount_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.meanSampleCount_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.budgetSampleCount_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclidean_compression_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.meanDrawLaw_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.meanDrawLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.meanTrialsWeight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.meanTrialsWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.bestMean_cost_le_trial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.allDraws_iff_indices' depends on axioms: [propext, Quot.sound]
+'APC.bestMean_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.drawSum_eq_fin_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.drawMean_eq_tupleMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.productWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.productWeight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.productWeight_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.kernelWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.kernelWeight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.kernel_event_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.liftingTrialsLaw_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.liftingTrialsLaw_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.randomLift_mem_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.randomLift_cost_of_cluster_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.randomized_lifting_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.liftingSampleCount_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.liftingRepetitions_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.randomized_lifting_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.randomized_apc_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.randomized_apc_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.randomized_euclidean_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.randomized_euclidean_compression_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.errorBudget_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.errorBudget_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.iteration_product_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.iteration_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.final_centers_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_iteration_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_apc_of_iteration' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.historyWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.historyWeight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.adaptive_failure_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.adaptive_consequence_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.mem_pointWitnessFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.card_pointWitnessFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.card_pointWitnessFamily_with_opt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_sampling_stage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_sampling_stage_explicit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.iteratedLog_stops' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logStop_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logStop_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logStop_minimal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logLevel_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logLevel_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logLevel_backward_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.reverse_geometric_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.terminal_geometric_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.inverse_sqrt_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logSchedule_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logStageError_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logStageError_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logStageError_rescaled_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricIterationCount_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricIterationCount_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricIterationCount_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricIterationCount_terminal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_terminal_support_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricIterationCount_backward' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricCountFailure_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricCountFailure_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricStageFailure_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricStageFailure_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricStageFailure_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_apc_log_schedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_adaptive_failure_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.Adaptive.historyWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.Adaptive.historyWeight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.Adaptive.adaptive_failure_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.Adaptive.adaptive_output_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sampledPoints_range_subset' depends on axioms: [propext]
+'APC.sampledWeights_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_step_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metric_step_kernel_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.size_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.sample_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.cloud_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.transition_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.transition_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.good_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.all_stages_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.chain_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.chain_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.rounded_chain_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.rounded_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.geometricStageFailure_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.geometricStageFailure_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.geometricStageFailure_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logStageError_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.logStageError_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.log_schedule_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.log_schedule_rounded_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.scheduledFailure_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.scheduledFailure_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.scheduledError_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.scheduledError_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.scheduled_rounded_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.optimalProxy_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.finite_metric_correctness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricSizeBase_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricSizeGamma_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.log_logLevel_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricStageSampleCount_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.log_metricIterationCount_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.scheduledFailure_log_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.recursive_size_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.terminal_size_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricSizeBase_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.terminal_support_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.finite_metric_size_and_correctness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.log_polynomial_cardinality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.polynomialLogBudget_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.witnessCompressionCount_polynomial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.liftingSampleCount_scaled_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.compressionSampleCount_polynomial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.randomizedCompressionSampleCount_polynomial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.dependentKernelWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.dependentKernelWeight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.dependentKernel_event_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.dependentKernel_event_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.RandomStrongInput.law_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.RandomStrongInput.law_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.RandomStrongInput.law_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.RandomStrongInput.randomized_first_stage_size_and_output' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'APC.oneCost_reference_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.inner_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenter_strong_of_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.importance_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.importance_estimator_mse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.importance_estimator_mse_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.vectorImportance_mse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenterProbability_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenterProbability_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenterProbability_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sampled_mass_estimator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sampled_oneCost_estimator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.vectorDrawSum_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.sampled_centered_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenter_vector_mse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenterMomentEnergy_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenterMomentEnergy_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenterMomentEnergy_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenter_strong_failure_positive_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenter_mass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenter_zero_variance_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenterProbability_zero_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenter_zero_variance_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenterStrongSampleCount_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenterStrongSampleCount_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenter_strong_coreset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.unit_cost_eq_oneCost' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.oneCenter_strong_coreset_tuples' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.exists_oneCenter_strong_coreset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_metric_strong_sampling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_metric_strong_coreset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_metric_strong_count_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.finite_metric_strong_count_bound_le_ambient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.supportSearch_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.supportCenters_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.supportSearch_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.supportSearch_approximate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.supportSearch_candidate_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.enumeration_chain_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.enumeration_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.finite_metric_enumeration_correctness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.terminal_enumeration_count_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.centerSubsets_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subsetTuple_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subsetTuple_hits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subsetSearch_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.cost_le_of_centers_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subsetSearch_le_tuple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subsetSearch_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subsetSearch_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subsetSearch_candidate_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.metricStageSampleCount_ge_centers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.choose_le_exp_ratio_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.scheduledFailure_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.terminal_size_ge_centers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.terminal_binomial_count_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.terminal_binomial_parameter_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subsetOutput_supported' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subsetOutput_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subset_enumeration_chain_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.subset_enumeration_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.MetricIteration.finite_metric_subset_enumeration_correctness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'APC.assignmentCenters_improve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclideanOptimal_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclidean_step_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.sample_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.cloud_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.cloud_support_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.transition_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.transition_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.good_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.all_stages_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.chain_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.chain_preserves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.liftingWitnessCount_valid' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.final_witness_preservation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.summary_apc_of_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.searchProxy_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.unconditional_euclidean_apc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.kernel_event_bound_sharp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.randomized_compression' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.unconditional_randomized_euclidean_apc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'APC.euclideanCubicBase_dominates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.euclideanCubicSize_dominates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'APC.EuclideanIteration.euclidean_approximation_preserving_coreset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'APC.EuclideanIteration.euclidean_randomized_apc' depends on axioms: [propext, Classical.choice, Quot.sound]
+Audit passed: 367 declarations; only standard Lean axioms; 72 source hashes match.
+Build and axiom audit passed.
