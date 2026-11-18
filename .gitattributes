@@ -1,0 +1,8 @@
+# Generated proof graphs and extracted data are excluded from GitHub language statistics.
+blueprint/generated/** linguist-generated=true
+blueprint/compiled_dependencies.json linguist-generated=true
+blueprint/source_index.json linguist-generated=true
+blueprint/source_names.txt linguist-generated=true
+dependency-graph/apc-dependency-graph.html linguist-generated=true
+dependency-graph/apc-file-dependencies.* linguist-generated=true
+dependency-graph/dependency-data.json linguist-generated=true
